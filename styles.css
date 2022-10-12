@@ -12,6 +12,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     width: auto;
     height: auto;
+    
 }
 .items {
     border: 1px solid black;
@@ -47,11 +48,13 @@ img {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 9;
-    background-color: #1d76bf;
+    background: rgb(158,158,158);
+    background: linear-gradient(90deg, rgba(158,158,158,1) 0%, rgba(0,0,0,1) 100%);
     line-height: 34px;
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 1;
 }
 .headericoncontainer {
     display: grid;
@@ -78,18 +81,24 @@ img {
     grid-column-start: 1;
     grid-column-end: 1;
     background-color: rgb(171, 171, 171);
-    color: black;
+    color: rgb(116, 116, 116);
     font-family: 'Inter Tight', sans-serif;
+}
+.nav-title {
+    text-align: center;
+    color: black;
+}
+.nav-title:hover {
+    cursor: pointer;
 }
 .navbar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 .navbar1:hover {
     display: block;
-    color: #000;
+    color: rgb(0, 0, 0);
     padding: 8px 16px;
     text-decoration: none;
     background-color: darkgrey;
@@ -105,21 +114,19 @@ details summary::-webkit-details-marker {
 .instruments {
     
 }
-li a {
+/* li a {
     display: block;
     color: #000;
     padding: 8px 16px;
-    text-decoration: none;
-    
-    
-}
-li a:hover {
+    text-decoration: none;  
+} */
+/* li a:hover {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
     background-color: rgb(129, 129, 129);
-  }
+  } */
 #content {
     grid-area: 2 / 2 / 9 / 9 ;
     background-color: #fff;
@@ -129,7 +136,56 @@ li a:hover {
 .projects {
     overflow: hidden;
 }
-.project-list {
-    list-style: none;
-    float: left;
+
+/* nav kısmı */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+ ul {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: start;
+	 list-style-type: none;
+     z-index: 0;
 }
+ ul li {
+	 padding: 6px 0;
+}
+ ul li a {
+	 position: relative;
+	 display: block;
+	 padding: 4px 0;
+	 font-family: Lato, sans-serif;
+	 color: #ffffff;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 transition: 0.5s;
+}
+ ul li a::after {
+	 position: absolute;
+	 content: "";
+	 top: 100%;
+	 left: 0;
+	 width: 100%;
+	 height: 3px;
+	 background: #00233b;
+	 transform: scaleX(0);
+	 transform-origin: right;
+	 transition: transform 0.5s;
+}
+ ul li a:hover {
+	 color: #95a5a6;
+}
+ ul li a:hover::after {
+	 transform: scaleX(1);
+	 transform-origin: left;
+}
+footer {
+    width: 100%;
+    background: rgb(158,158,158);
+    background: linear-gradient(90deg, rgba(158,158,158,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    height: auto;
+ }

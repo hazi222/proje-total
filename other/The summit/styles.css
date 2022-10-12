@@ -1,0 +1,30 @@
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    }
+    .nav-link:hover {
+      color: black;
+    }
+    .btn {
+      background-color: #2176FF;
+      border-radius: 10px;
+      color: #ffffff;
+      font-family: 'Raleway',sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 14px;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #802176FF;
+      font-size: 20px;
+      transition: margin-right 2s;
+    }
+    .activity {
+      border: 1px solid #2176FF;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
