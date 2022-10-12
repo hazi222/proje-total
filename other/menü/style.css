@@ -1,0 +1,34 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: "Helvetica"
+}
+body {
+    background: rgb(7,17,152);
+    background: linear-gradient(90deg, rgba(7,17,152,1) 32%, rgba(5,255,0,1) 100%);
+    text-transform: uppercase; 
+}
+.header {
+    text-align: center;
+    font-family: "Bungee Spice";
+
+}      
+#header-name {
+    background-image: url(header.png);
+    color: floralwhite;
+    font-family: Bungee Spice;
+}
+.items {
+    font-family: 'Silkscreen'; 
+    color:gold;
+}
+.items:hover {
+    color:blue;
+}
+.header-1 {
+    font-family: 'Nabla'; 
+}
+.button {
+    float: inline-start;
+}

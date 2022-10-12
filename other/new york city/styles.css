@@ -1,0 +1,74 @@
+html {
+    background-color: rgb(126, 126, 126);
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    color: white;
+    width: 100%;
+}
+main {
+    z-index: -1;
+    padding-top: 69px;
+}
+video {
+    z-index: -1;
+    padding-top: 69px;
+    left: 0px;
+    overflow: hidden;
+}
+
+#blog {
+    z-index: -1;
+    padding-top: 69px;
+    left: 0px;
+}
+#media {
+    z-index: -1;
+    padding-top: 69px;
+    width: 100%;
+    left: 0px;
+}
+#about {
+    z-index: -1;
+    padding-top: 69px;
+    left: 0px;
+}
+header {
+    border-bottom: 1px solid seashell ;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    max-height: 69px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+li a {
+    color: gray;
+    display: inline;
+    float: right;
+    padding: 8px;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ny {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger
+}
+
+.text {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    
+}

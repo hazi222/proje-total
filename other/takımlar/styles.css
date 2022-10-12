@@ -1,0 +1,113 @@
+table, td {
+   border: 1px solid black; 
+   border-radius: 10px;
+   height: 200px;
+}
+#page-title {
+    background-color: darkslategray;
+    width: 100%;
+    color: white;
+}
+table {
+    background-color: cadetblue;
+}
+h1 {
+   object-position: center;
+   border: 5px solid black;
+   border-radius: 10px;
+   background-color: rgb(21, 156, 149);
+}
+h3 {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+th {
+    border: 1px solid black; 
+   border-radius: 10px;
+}
+td {
+    text-align: center;
+    color: black;
+}
+.BJK {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    width: auto;
+}
+.GS {
+    background: rgb(250,255,0);
+    background: linear-gradient(90deg, rgba(250,255,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+.FB {
+    background: rgb(250,255,0);
+    background: linear-gradient(90deg, rgba(250,255,0,1) 0%, rgba(0,10,255,1) 100%);
+}
+.TS {
+    background: rgb(95,2,31);
+    background: linear-gradient(90deg, rgba(95,2,31,1) 0%, rgba(0,0,255,1) 100%);
+    color: white;
+}
+#bjk-coach:hover {
+    background-size: 100% 100%; 
+    background-image: url(resources/VI.png);
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#bjk-stad:hover {
+    background-image: url(resources/vodafone-arena.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#gs-coach:hover {
+    background-image: url(resources/okan-buruk.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#gs-stad:hover {
+    background-image: url(resources/nef.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#fb-coach:hover {
+    background-image: url(resources/jj.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#fb-stad:hover {
+    background-image: url(resources/fb-stad.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#ts-coach:hover {
+    background-image: url(resources/aa.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}
+#ts-stad:hover {
+    background-image: url(resources/ts-stad.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    color: transparent;
+    cursor: default;
+    user-select: none;
+}

@@ -1,0 +1,166 @@
+.Photo {
+    overflow: hidden;
+}
+.Photo:hover {
+    cursor: pointer;
+}
+a:link {
+    color: black;
+}
+
+title {
+    font: 'Alkalami';
+}
+table, th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+.show-name {
+    font-weight: 8000;
+    background: rgb(143,143,143);
+    background: radial-gradient(circle, rgba(143,143,143,1) 8%, rgba(0,0,0,1) 100%);
+    font-family: 'Gemunu Libre';
+    color: black;
+}
+
+td {
+    background: radial-gradient(circle, rgba(143,143,143,1) 8%, rgba(0,0,0,1) 100%);
+    font-family: 'Gemunu Libre';
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    text-align: center;
+    font-size: x-large;
+}
+.Page-Title {
+
+ color: rgb(0, 0, 0);
+}
+th {
+    font-family: Cinzel;
+    background: rgb(125,125,125);
+    background: radial-gradient(circle, rgba(125,125,125,1) 0%, rgba(40,40,40,1) 100%);
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    font-size: larger;
+    cursor: pointer;
+}
+th {
+    text-align: center;
+}
+.Dexter-plot:hover {
+background-image: url(resources/dexter-header.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+overflow: visible;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: aliceblue;
+color: transparent;
+cursor: default;
+user-select: none;
+}
+.PB-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/prison\ break-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: transparent;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 120px;
+    font-size: xx-small;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.BB-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/breaking\ bad-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.BCS-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/better\ call\ saul-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.TBBT-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/TBBT-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.B99-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/B99-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    padding-bottom: 200px;
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.Friends-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/Friends-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 14, 23);
+    padding-bottom: 200px;
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.AI-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/Ayak\ isleri-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(253, 253, 253);
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.Gibi-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-image: url(resources/Gibi-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(253, 253, 253);
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}
+.MNIE-plot:hover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(resources/MNIE-header.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    color: transparent;
+    width: auto;
+    cursor: default;
+    user-select: none;
+}

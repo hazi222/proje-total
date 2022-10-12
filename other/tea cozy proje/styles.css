@@ -1,0 +1,113 @@
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+}
+.content {
+    z-index: -1;
+    padding-top: 69px;
+}
+.header {
+    border-bottom: 1px solid seashell ;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    max-height: 69px;
+    top: 0px;
+}
+.navigation a{
+    float: left;
+    height: 69px;
+    margin: 0 auto,
+}
+.listitem {
+    color: gray;
+    display: inline;
+    float: right;
+    padding: 8px;
+    text-decoration: underline;
+}
+.mission {
+    background-image: url(resources/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+#header-photo {
+    float: left;
+    padding-left: 10px;
+    height: 50px;
+    opacity: 0.5;
+}
+.mission {
+    padding-top: 69px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    width: 1200px;
+    margin: 0;
+    z-index:5;
+  }
+.flex-container {
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.boxes {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    justify-content: space-between;
+    display: flex;
+}
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url(resources/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+.box {
+    max-width: 1050px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    background-color: black;
+    flex-basis: 30%;
+}
+.copyright {
+    text-align: left;
+    font-size: 12px;
+}
+.tel {
+    font-size: 12px;
+}

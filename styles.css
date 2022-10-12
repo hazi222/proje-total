@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    background-color: rgb(99, 153, 45);
+    padding: 0px;
+    grid-template-rows: 50px repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    height: 100%;
+}
+.items {
+    border: 1px solid black;
+    margin: 0px;
+    gap: 0px;
+    padding: 0px;
+    background-color: rgb(13, 21, 190);
+    color: aliceblue;
+    font-size: 25px;
+}
+.right-header {
+    float: right;
+    height: 69px;
+    margin: 0 auto;
+    display: inline;
+}
+.right-header-items {
+    color: gray;
+    display: inline;
+    float: right;
+    padding: 12px;
+    text-decoration: underline;
+}
+.right-header:hover {
+    cursor: pointer;
+}
+img {
+    width: 25px;
+    height: 25px;
+}
+#header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-color: #1d76bf;
+    line-height: 34px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.headericoncontainer {
+    display: grid;
+    grid-template-rows: 50px;
+    
+}
+.search {
+    padding: 8px 80px;
+    margin: 8px;
+    padding-bottom: 5px;
+    background-color: #072640;
+    color: #fff;
+    border-color: #072640;
+    display: inline-block;
+    font-size: large;
+}
+.menuicon {
+    padding-top: 13px;
+    padding-left: 13px;
+}
+#nav {
+    grid-row-start: 2;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: rgb(171, 171, 171);
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar1:hover {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: darkgrey;
+}
+.header-title {
+    text-align: center;
+    background-color: #023055;
+    color: bisque;
+}
+details summary::-webkit-details-marker {
+    display:none;
+  }
+.instruments {
+    
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+    
+}
+li a:hover {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(129, 129, 129);
+  }
+#content {
+    grid-area: 2 / 2 / 9 / 9 ;
+    background-color: #fff;
+    color: black;
+    overflow: hidden;
+}
+.projects {
+    overflow: hidden;
+}
+.project-list {
+    list-style: none;
+    text-align: left;
+}
