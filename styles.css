@@ -28,13 +28,16 @@
 
 .navbar a {
     color: #fff;
-    padding: 16px 20px;
+    padding: 16px;
     text-decoration: none;
     text-align: center;
 }
-
+.header-title a {
+    text-decoration: none;
+    color: white;
+}
 .navbar a:hover {
-    background-color: rgb(26, 10, 144);
+    background-color: rgba(26, 10, 144, 0.703);
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
@@ -42,8 +45,6 @@
 #main {
     display: flex;
 }
-
-
 #sidebar {
     background-color: #f1f1f1;
     flex: 25%;
