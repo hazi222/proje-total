@@ -102,7 +102,7 @@ p {
         flex-direction: column;
     }
     #sidebar {
-        order: 1;
+        order: 0;
     }
 }
 
@@ -169,12 +169,14 @@ footer {
     text-transform: uppercase;
     z-index: -1;
     
+    
   }
   
   .dropbtn:hover, .dropbtn:focus {
     background-color: rgba(26, 10, 144, 0.703);
     z-index: -1;
     cursor: pointer;
+    
   }
   
   #myInput {
@@ -186,7 +188,7 @@ footer {
     font-size: 16px;
     padding: 14px 20px 12px 45px;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(221, 221, 221);
     z-index: 0;
   }
   
@@ -209,7 +211,6 @@ footer {
     border-radius: 20px;
     z-index: 0;
   }
-  
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
