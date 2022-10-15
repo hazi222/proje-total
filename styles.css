@@ -154,7 +154,7 @@ footer {
     border-radius: 20px;      
 }   
 .dropbtn {
-    background-color: #1186a9;
+    background-color: #170878;
     flex: 25%;
     padding: 20px;
     order: -1;
@@ -204,6 +204,7 @@ footer {
     display: none;
     position: absolute;
     background-color: #1186a9;
+    margin-top: 20px;
     min-width: 230px;
     overflow: auto;
     border: 1px solid #ddd;
