@@ -35,26 +35,32 @@ body {
   
   th {
     border: 2px solid #8c6b48;
+    border-radius: 10px;
+    
   }
   
   table {
     text-align: center;
     margin: 20px auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
   }
   
   td {
     border: 2px solid #8c6b48;
     width: 300px;
+    border-radius: 10px;
   }
   
   footer {
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: center;
-    position: fixed;
+    position: fixed; 
     width: 100%;
     bottom: 5px;
-    background-color: #242f44;
+    background-color: #242f44; 
     z-index: 5;
+    
   }
   footer h3 {
     display: inline-block;
@@ -66,6 +72,7 @@ body {
     max-width: 940px;
     margin: 0 auto;
     height: 800px;
+    margin-bottom: 212px;
   }
   
   

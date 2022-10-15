@@ -23,32 +23,59 @@
 	
 	
 	<div class="navbar">
-		<a href="other/dasmotos/proje.html" target="content" id="first-item">Dasmotos</a> 
-                      <a href="other/dizi/dizi.html" target="content">Tv Shows</a>  
-                      <a href="other/new york city/deneme.html" target="content">New York City</a> 
-                      <a href="other/tea cozy proje/index.html" target="content">Tea Cosy</a> 
-                      <a href="other/broadway/index.html" target="content">Broadway</a> 
-                      <a href="other/project task board/index.html" target="content">Project Task Board</a> 
-                      <a href="other/Wine festival schedule/index.html" target="content">Wine Festival Schedule</a> 
-                      <a href="other/Davies Burgers/index.html" target="content">Davies Burgers</a>
-                      <a href="other/form a story/index.html" target="content">Form a Story</a>
-                      <a href="other/healthy recipes/index.html" target="content">Healthy Recipes</a>
-                      <a href="other/Pup Spa/index.html" target="content">Pup Spa</a>
-                      <a href="other/The summit/index.html" target="content">The Summit</a>
-                      <a href="other/to do or not to do/index.html" target="content">To Do or Not To Do</a>
-                      <a href="other/Typography/index.html" target="content" id="last-item">Typography</a>
+			<a href="" id="first-item">Home</a> 
+            <a href="">About</a>  
+            <a href="" id="last-item">Contact</a>
 	</div>
 	
 	<div id="main">
 		<!--Sidebar başlangıç-->
 		<div id="sidebar">
-			<div class="sidebar-items">1</div>
-			<div class="sidebar-items">2</div>
-			<div class="sidebar-items">3</div>
-			<div class="sidebar-items">4</div>
-			<div class="sidebar-items">5</div>
-			<div class="sidebar-items">6</div>
-			<div class="sidebar-items">7</div>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Projects </button>
+				<div id="myDropdown" class="dropdown-content">
+				  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+				  <a href="other/dasmotos/proje.html" target="content" id="first-item">Dasmotos</a> 
+            		<a href="other/dizi/dizi.html" target="content">Tv Shows</a>  
+            		<a href="other/new york city/deneme.html" target="content">New York City</a> 
+            		<a href="other/tea cozy proje/index.html" target="content">Tea Cosy</a> 
+            		<a href="other/broadway/index.html" target="content">Broadway</a> 
+            		<a href="other/project task board/index.html" target="content">Project Task Board</a> 
+            		<a href="other/Wine festival schedule/index.html" target="content">Wine Festival Schedule</a> 
+            		<a href="other/Davies Burgers/index.html" target="content">Davies Burgers</a>
+            		<a href="other/form a story/index.html" target="content">Form a Story</a>
+            		<a href="other/healthy recipes/index.html" target="content">Healthy Recipes</a>
+            		<a href="other/Pup Spa/index.html" target="content">Pup Spa</a>
+            		<a href="other/The summit/index.html" target="content">The Summit</a>
+            		<a href="other/to do or not to do/index.html" target="content">To Do or Not To Do</a>
+            		<a href="other/Typography/index.html" target="content" id="last-item">Typography</a>
+				</div>
+				<script>
+					/* When the user clicks on the button,
+					toggle between hiding and showing the dropdown content */
+					function myFunction() {
+					  document.getElementById("myDropdown").classList.toggle("show");
+					}
+					
+					function filterFunction() {
+					  var input, filter, ul, li, a, i;
+					  input = document.getElementById("myInput");
+					  filter = input.value.toUpperCase();
+					  div = document.getElementById("myDropdown");
+					  a = div.getElementsByTagName("a");
+					  for (i = 0; i < a.length; i++) {
+						txtValue = a[i].textContent || a[i].innerText;
+						if (txtValue.toUpperCase().indexOf(filter) > -1) {
+						  a[i].style.display = "";
+						} else {
+						  a[i].style.display = "none";
+						}
+					  }
+					}
+					</script>
+			</div>
+
+			
 		</div>
 		<!--Sidebar bitiş-->
 		

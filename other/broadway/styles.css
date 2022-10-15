@@ -22,7 +22,9 @@ nav li {
     display: inline-block;
     width: 80px
 }
-  
+nav li:hover {
+  cursor: pointer;
+}
 main {
     text-align: center;
     position: relative;

@@ -116,6 +116,10 @@ ul {
 .copyright {
     text-align: left;
     font-size: 12px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tel {
     font-size: 12px;
