@@ -23,7 +23,7 @@
 .navbar {
     display: flex;
     background-color: rgb(7, 86, 106);
-    justify-content: left;
+    justify-content: center;
     margin-top: 50px; 
     border-radius: 20px;
     z-index: 1;
@@ -31,22 +31,32 @@
 }
 
 .navbar a {
-    color: #fff;
-    padding: 16px;
+    color: rgb(0, 0, 0);
+    padding: 25px 40px 25px 40px;
     text-decoration: none;
     text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .header-title a {
     text-decoration: none;
     color: white;
 }
 .navbar a:hover {
-    background-color: rgba(26, 10, 144, 0.703);
+    /* background-color: rgba(26, 10, 144, 0.703); */
     color: rgb(255, 255, 255);
     text-decoration: underline;
-     border-radius: 20px;  
+    border-radius: 20px;  
+    animation-name: navbar;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
     
 }
+@keyframes navbar {
+    100%   {background-color: rgba(26, 10, 144, 0.703);}
+    100%   {color: rgb(255, 255, 255);}
+    
+  }
   /* #first-item:hover {
     background-color: rgba(26, 10, 144, 0.703);
     color: rgb(255, 255, 255);
@@ -142,17 +152,25 @@ footer {
 }
 
 #sidebar a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 16px;
     text-decoration: none;
     text-align: center; 
+    font-weight: 400;
 }  
 #sidebar a:hover {
-    background-color: rgba(26, 10, 144, 0.703);
+    background-color: rgba(35, 183, 224, 0.703);
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    border-radius: 20px;      
+    border-radius: 20px;   
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }   
+@keyframes example {
+    100%   {background-color: rgba(26, 10, 144, 0.703);}
+    100%   {color: rgb(255, 255, 255);}
+  }
 .dropbtn {
     background-color: #170878;
     flex: 25%;
@@ -176,7 +194,7 @@ footer {
     background-color: rgba(26, 10, 144, 0.703);
     z-index: -1;
     cursor: pointer;
-    
+  
   }
   
   #myInput {
@@ -194,12 +212,11 @@ footer {
   
   #myInput:focus {outline: 3px solid #ddd;}
   
-  .dropdown {
+  .dropdown-content {
     position: relative;
-    display: inline-block;
+    display: none;
     z-index: 0;
   }
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -208,9 +225,9 @@ footer {
     min-width: 230px;
     overflow: auto;
     border: 1px solid #ddd;
-    z-index: 1;
-    border-radius: 20px;
     z-index: 0;
+    border-radius: 20px;
+    
   }
   .dropdown-content a {
     color: black;
@@ -231,6 +248,10 @@ footer {
     z-index: 0;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
+
   
   .show {display: block;}
+  
+.dropdown.dropbtn:hover .dropdown-content  {
+    display: none;
+}
