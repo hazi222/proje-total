@@ -1,0 +1,209 @@
+* {
+    font-family: 'Dosis', sans-serif;
+}
+body {
+    background: rgb(97, 106, 110);
+    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%);
+}
+img {
+    border-radius: 10px;
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 300px auto 300px;
+    flex-wrap: wrap;
+}
+.icons:hover {
+    cursor: pointer;
+}
+.icon-item {
+    border: 2px solid;
+    padding: 3px;
+}
+.icon-item:hover {
+    animation-name: icons;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes icons {
+    100% {
+        background-color: rgb(255, 255, 255);
+        filter: invert(1);
+    }
+}
+.navbar {
+    display: flex;
+    background: rgb(97, 106, 110);
+    background: linear-gradient(90deg, rgb(102, 105, 107) 0%, rgb(70, 81, 86) 100%);
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 25px 40px 25px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    /* background-color: rgba(26, 10, 144, 0.703); */
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    border-radius: 20px;
+    animation-name: navbar;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes navbar {
+    100% {
+        background-color: rgba(0, 0, 0, 0.703);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+
+}
+.header {
+    background-image: url(images/header.jpg);
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.text-over {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.679);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.kurslar-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0 20px 0 20px;
+    width: fit-content;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.kurslar-text:hover {
+    animation-name: kurslar;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes kurslar {
+    100% {
+        background-color: rgba(0, 0, 0, 0.703);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+
+}
+
+.instruments  {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: space-between;
+    margin: auto 150px auto 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.instrument-text {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.teachers {
+    display: flex;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-items: space-between;
+    margin: auto 150px auto 150px;
+    justify-content: center;
+    background-image: url(images/note.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.hoca-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0 20px 0 20px;
+    width: fit-content;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.hoca-text:hover {
+    animation-name: hoca;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes hoca {
+    100% {
+        background-color: rgba(0, 0, 0, 0.703);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+
+}
+.hocalar-figcaption {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer:hover {
+    cursor: pointer;
+}
